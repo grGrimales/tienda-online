@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/tienda_online/static/css/main.e86af6e1.css",
+    "main.js": "/tienda_online/static/js/main.e97a9281.js",
+    "static/js/787.5883ecc6.chunk.js": "/tienda_online/static/js/787.5883ecc6.chunk.js",
+    "static/media/header.jpg": "/tienda_online/static/media/header.1612f4fe6db6daca155a.jpg",
+    "static/media/headphones.jpg": "/tienda_online/static/media/headphones.6c988a2f76b5d38e6dea.jpg",
+    "static/media/charging-phone.jpg": "/tienda_online/static/media/charging-phone.9727ffe63d8a7960e040.jpg",
+    "index.html": "/tienda_online/index.html",
+    "main.e86af6e1.css.map": "/tienda_online/static/css/main.e86af6e1.css.map",
+    "main.e97a9281.js.map": "/tienda_online/static/js/main.e97a9281.js.map",
+    "787.5883ecc6.chunk.js.map": "/tienda_online/static/js/787.5883ecc6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e86af6e1.css",
+    "static/js/main.e97a9281.js"
+  ]
+}
