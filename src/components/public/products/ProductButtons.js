@@ -7,17 +7,15 @@ export const ProductButtons = ({ className, style }) => {
 
     return (
         <div className={`${styles.buttonsContainer} ${className}`} style={style}>
-            <button className={styles.buttonMinus} onClick={() => increaseBy(-1)}>
-                {' '}
-                -{' '}
-            </button>
-
-            <div className={styles.countLabel}> {counter} </div>
-
-            <button className={styles.buttonAdd} onClick={() => increaseBy(+1)}>
-                {' '}
-                +{' '}
-            </button>
-        </div>
+        <button className="bg-primary text-white rounded-large px-4 py-2" onClick={() => increaseBy(-1)}>
+          -{' '}
+        </button>
+  
+        <div className={styles.countLabel}> {counter} </div>
+  
+        <button className="bg-primary text-white rounded-large px-4 py-2 cursor-pointer" onClick={() => console.log('click')}>
+          +{' '}
+        </button>
+      </div>
     );
 };

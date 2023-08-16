@@ -2,9 +2,11 @@ import { NavLink } from 'react-router-dom';
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import logo from '../../assets/img/logo.png'
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Product', href: '/products' },
+
 ]
 
 
@@ -47,7 +49,7 @@ const Navbar = () => {
           <span className="sr-only">Your Company</span>
           <img
             className="h-8 w-auto"
-            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+            src={logo}
             alt=""
           />
         </a>
@@ -77,7 +79,13 @@ const Navbar = () => {
       </div>
       <div className="hidden lg:flex lg:flex-1 lg:justify-end">
         <a href="#" className="leading-6 text-cyan-300 text-xl hover:text-gray-400 font-bold">
-          Log in <span aria-hidden="true">&rarr;</span>
+          <NavLink 
+                   exact= 'true'
+                    to='/login'
+                     className={({isActive})=> isActive ? 'text-cyan-300 text-xl hover:text-gray-400 font-bold' : 'text-xl text-neutral-50 font-semibold leading-6'}
+                      >
+                      Log in <span aria-hidden="true">&rarr;</span>
+             </NavLink>
         </a>
       </div>
     </nav>

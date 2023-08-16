@@ -64,12 +64,8 @@ export const Home = () => {
           </div>
         </div>
         <div className="divide-y divide-blue-20"></div>
-        <div className=" flex px-2 sm:px-48 lg:px-8 flex-col">
-          {/* <h2 className="text-lg font-bold tracking-tight text-cyan-900 sm:text-6xl">
-          Categories
-          </h2> */}
+        
           <CategoriesSection />
-        </div>
       </div>
     </>
   );
